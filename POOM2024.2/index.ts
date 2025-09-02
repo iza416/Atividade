@@ -46,4 +46,9 @@ function criaVeiculo(): Veiculo{
     return veiculo;
 }
 
+function imprimirDados(veiculo: Veiculo): void{
+    console.table(veiculo);
+}
+
+
 
