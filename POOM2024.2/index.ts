@@ -51,3 +51,9 @@ function frear(veiculo: Veiculo): void{
     veiculo.velocidade -= veiculo.potencia*0.1;
     console.log(veiculo.velocidade);
 }}
+
+function subirMarcha(veiculo: Veiculo): void{
+    if(veiculo.marchaAtual < veiculo.numeroMarchas){
+        veiculo.marchaAtual++;
+    }
+    
