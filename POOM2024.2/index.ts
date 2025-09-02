@@ -61,4 +61,8 @@ function subirMarcha(veiculo: Veiculo): void{
     if(veiculo.marchaAtual < veiculo.numeroMarchas){
         veiculo.marchaAtual++;
     }
+
+    console.log(veiculo.marchaAtual);
+
+}
     
