@@ -46,6 +46,11 @@ function criaVeiculo(): Veiculo{
     return veiculo;
 }
 
+function imprimirDados(veiculo: Veiculo): void{
+    console.table(veiculo);
+}
+
+
 function frear(veiculo: Veiculo): void{
     if(veiculo.marchaAtual != 0){
     veiculo.velocidade -= veiculo.potencia*0.1;
